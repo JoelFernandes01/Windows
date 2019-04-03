@@ -1,0 +1,8 @@
+Renomeando a máquina 
+# Rename-Computer –newname “novo nome da máquina” 
+# Rename-Computer –newname win12-web-srv 
+
+Trocar endereços de rede 
+# Get-NetAdapter  ( comando para verificar os dispositivos de rede ) 
+# New-NetIPAddress –InterfaceAlias “dispositivo de rede” -IPAddress “endereço de rede” -PrefixLengh “máscara” 
+# New-NetIPAddress –InterfaceAlias “Ethernet 2” -IPAddress 192.168.88.153 -PrefixLengh 24 
